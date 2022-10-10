@@ -1,0 +1,80 @@
+
+
+.page {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 1200px;
+  height: 90px;
+  margin: 0 auto;
+  position: relative;
+  padding-right: 20px;
+
+}
+
+.logo {
+  width: 128px;
+  height: 31px;
+  background-image: url(./images/logo.svg);
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 32px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__link {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  margin: 0 0 0 32px;
+}
+
+.menu__link-areas {
+  color: white;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0 24px 0 20px;
+  text-decoration: none;
+}
+
+.menu__button {
+  color: black;
+  background-color: white;
+  border-radius: 14px;
+  padding: 9px 20px 13px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  margin: 0 0 0 31px;
+  text-decoration: none;
+}
