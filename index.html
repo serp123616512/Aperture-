@@ -5,38 +5,231 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Sergey Lupanov">
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./style.css">
     <title>Aperture+</title>
 </head>
 <body>
   <div class="page">
-    <div class="header">
-      <div class="logo logo_place_header"></div>
-      <nav class="nav">
-        <ul class="menu">
-          <li>
-            <a class="menu__link-areas" href="#">Business areas</a>
+    <section class="header">
+      <div class="header__content">
+        <div class="logo logo_place_header"></div>
+        <nav class="nav">
+          <ul class="menu">
+            <li>
+              <a class="menu__link-areas" href="#">Business areas</a>
+            </li>
+            <li>
+              <a class="menu__link" href="#">Featured images</a>
+            </li>
+            <li>
+              <a class="menu__link" href="#">Gear cage</a>
+            </li>
+            <li>
+              <a class="menu__link" href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#" class="menu__button">Get template</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="annotation">
+      <div class="annotation__content">
+        <p class="annotation__subtitle">Photographer & Filmmaker</p>
+        <h1 class="annotation__title">Aperture Studios</h1>
+        <p class="annotation__description">
+          Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+          Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+          ut commodo diam libero vitae erat.
+          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+          Nunc ut sem vitae risus tristique posuere.
+        </p>
+        <ul class="foto-info foto-info_place_annotation">
+          <li class="foto-info__flex">
+            <img class="foto-info__img" src="./images/delay.svg" alt="Logo delay.">
+            <span  class="foto-info__text">1/2000s</span>
           </li>
-          <li>
-            <a class="menu__link" href="#">Featured images</a>
+          <li class="foto-info__flex">
+            <img class="foto-info__img" src="./images/aperture.svg" alt="Logo aperture.">
+            <span  class="foto-info__text">f/11</span>
           </li>
-          <li>
-            <a class="menu__link" href="#">Gear cage</a>
+          <li class="foto-info__flex">
+            <img class="foto-info__img" src="./images/ISO.svg" alt="Logo ISO.">
+            <span  class="foto-info__text">100</span>
           </li>
-          <li>
-            <a class="menu__link" href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#" class="menu__button">Get template</a>
+          <li class="foto-info__flex">
+            <img class="foto-info__img" src="./images/geo.svg" alt="Logo geoposition.">
+            <span  class="foto-info__text">Iceland</span>
           </li>
         </ul>
-      </nav>
-    </div>
-
-
-
+      </div>
+    </section>
+    <section class="description">
+      <h2 class="description__title">What we do.</h2>
+      <p class="description__subtitle">The areas that we're specialized in.</p>
+      <ul class="cards">
+        <li class="card">
+          <img class="card__img" src="./images/photo_product.jpg" alt="">
+          <h3 class="card__title">Product Photography</h3>
+          <p class="card__subtitle">
+            Cras commodo consequat orci,
+            in convallis risus egestas non. Nulla efficitur auctor hendrerit.
+            Etiam ut orci varius, faucibus libero ac, cursus quam.
+          </p>
+          <div class="card__link">
+            <a class="more-link" href="#">
+              <div class="more-link__img"></div>
+              <span class="more-link__text">Read more</span>
+            </a>
+          </div>
+        </li>
+        <li class="card">
+          <img class="card__img" src="./images/photo_arh.jpg" alt="">
+          <h3 class="card__title">Architecture Photography</h3>
+          <p class="card__subtitle">
+            Aenean porta neque eget consequat fringilla.
+            Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim,
+            nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien,
+            sit amet rhoncus leo imperdiet nec.
+          </p>
+          <div class="card__link">
+            <a class="more-link" href="#">
+              <div class="more-link__img"></div>
+              <span class="more-link__text">Read more</span>
+            </a>
+          </div>
+        </li>
+        <li class="card">
+          <img class="card__img" src="./images/photo_drone.jpg" alt="">
+          <h3 class="card__title">Drone Photography</h3>
+          <p class="card__subtitle">
+            Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+            Duis tristique sed lorem a vestibulum. Cras commodo consequat orci,
+            in convallis risus egestas non. Nulla efficitur auctor hendrerit.
+            Etiam ut orci varius, faucibus libero ac, cursus quam.
+          </p>
+          <div class="card__link">
+            <a class="more-link" href="#">
+              <div class="more-link__img"></div>
+              <span class="more-link__text">Read more</span>
+            </a>
+          </div>
+        </li>
+        <li class="card">
+          <img class="card__img" src="./images/photo_wildlife.jpg" alt="">
+          <h3 class="card__title">Wildlife Photography</h3>
+          <p class="card__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.
+            Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+            Vestibulum sit amet urna turpis.
+          </p>
+          <div class="card__link">
+            <a class="more-link" href="#">
+              <div class="more-link__img"></div>
+              <span class="more-link__text">Read more</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <article class="article">
+      <img class="article__img" src="./images/fuji.jpg" alt="">
+      <div class="article__text">
+        <h3 class="article__title">Sunset at Mount Fuji</h3>
+        <p class="article__subtitle">
+          Duis tristique sed lorem a vestibulum.
+          Cras commodo consequat orci, in convallis risus egestas non.
+        </p>
+      </div>
+      <ul class="foto-info">
+        <li class="foto-info__flex">
+          <img class="foto-info__img" src="./images/delay.svg" alt="Logo delay.">
+          <span  class="foto-info__text">1"</span>
+        </li>
+        <li class="foto-info__flex">
+          <img class="foto-info__img" src="./images/aperture.svg" alt="Logo aperture.">
+          <span  class="foto-info__text">f/16</span>
+        </li>
+        <li class="foto-info__flex">
+          <img class="foto-info__img" src="./images/ISO.svg" alt="Logo ISO.">
+          <span  class="foto-info__text">400</span>
+        </li>
+        <li class="foto-info__flex">
+          <img class="foto-info__img" src="./images/geo.svg" alt="Logo geoposition.">
+          <span  class="foto-info__text">Japan</span>
+        </li>
+      </ul>
+    </article>
+    <section class="tools">
+      <div class="column column_place_left">
+        <p class="column__subtitle">The Gear cage</p>
+        <h2 class="column__title">The tools that we use.</h2>
+        <p class="column__description">
+          The say that "no place is boring if you've had a good night's
+          sleep and have a pocket full of unexposed film".
+          While we don't shoot (a lot) of film these days — these are the tools
+          that we actually use everyday to capture the amazing things around us.
+        </p>
+        <div>
+          <a class="more-link" href="#">
+            <div class="more-link__img"></div>
+            <span class="more-link__text">Check it out</span>
+          </a>
+        </div>
+      </div>
+      <div class="column column_place_right">
+        <ul class="foto-info">
+          <li class="foto-info__flex">
+            <img class="foto-info__img" src="./images/delay.svg" alt="Logo delay.">
+            <span  class="foto-info__text">0,8"</span>
+          </li>
+          <li class="foto-info__flex">
+            <img class="foto-info__img" src="./images/aperture.svg" alt="Logo aperture.">
+            <span  class="foto-info__text">f/5,6</span>
+          </li>
+          <li class="foto-info__flex">
+            <img class="foto-info__img" src="./images/ISO.svg" alt="Logo ISO.">
+            <span  class="foto-info__text">100</span>
+          </li>
+          <li class="foto-info__flex">
+            <img class="foto-info__img" src="./images/geo.svg" alt="Logo geoposition.">
+            <span  class="foto-info__text">Sweden</span>
+          </li>
+        </ul>
+       </div>
+    </section>
+    <article class="article">
+      <img class="article__img" src="./images/monstera.jpg" alt="">
+      <div class="article__text">
+        <h3 class="article__title">Monstera Leafs</h3>
+        <p class="article__subtitle">
+          Vestibulum sit amet urna turpis.
+          Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+        </p>
+      </div>
+      <ul class="foto-info">
+        <li class="foto-info__flex">
+          <img class="foto-info__img" src="./images/delay.svg" alt="Logo delay.">
+          <span  class="foto-info__text">1/400s</span>
+        </li>
+        <li class="foto-info__flex">
+          <img class="foto-info__img" src="./images/aperture.svg" alt="Logo aperture.">
+          <span  class="foto-info__text">f/3,5</span>
+        </li>
+        <li class="foto-info__flex">
+          <img class="foto-info__img" src="./images/ISO.svg" alt="Logo ISO.">
+          <span  class="foto-info__text">100</span>
+        </li>
+        <li class="foto-info__flex">
+          <img class="foto-info__img" src="./images/geo.svg" alt="Logo geoposition.">
+          <span  class="foto-info__text">Costa Rica</span>
+        </li>
+      </ul>
+    </article>
   </div>
 </body>
 </html>

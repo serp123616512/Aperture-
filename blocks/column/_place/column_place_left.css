@@ -1,0 +1,5 @@
+.column_place_left {
+  justify-content: center;
+  padding: 0 100px;
+  box-sizing: border-box;
+}

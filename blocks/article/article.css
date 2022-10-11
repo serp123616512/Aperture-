@@ -1,0 +1,9 @@
+.article {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  width: 1440px;
+  height: 600px;
+  }

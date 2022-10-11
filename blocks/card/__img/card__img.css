@@ -1,0 +1,6 @@
+.card__img {
+  width: 576px;
+  height: 600px;
+  object-fit: cover;
+  position: absolute;
+}

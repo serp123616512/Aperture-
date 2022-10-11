@@ -1,0 +1,13 @@
+.foto-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  height: 16px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}

@@ -1,0 +1,7 @@
+.annotation {
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 800px;
+  background:linear-gradient(360deg, black 18.78%, rgba(0, 0, 0, 0) 98.53%) , url(./annotation.jpg) top 0 left 0 / 1440px 716px no-repeat;
+}

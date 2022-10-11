@@ -1,0 +1,9 @@
+.annotation__content {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 531px auto 0;
+  color: white;
+}

@@ -1,0 +1,12 @@
+.more-link__img {
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  background-image: url(./logo_more-link.svg);
+  background-size: cover;
+  transition: rotate .5s ease;
+}
+
+.more-link:hover .more-link__img {
+  rotate: 120deg;
+}

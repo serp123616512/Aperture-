@@ -1,0 +1,9 @@
+.article__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  z-index: 2;
+}

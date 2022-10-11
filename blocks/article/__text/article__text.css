@@ -1,0 +1,8 @@
+.article__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+  margin-right: 60px;
+  z-index: 2;
+ }

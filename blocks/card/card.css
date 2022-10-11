@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+  width: 576px;
+  height: 600px;
+  margin: 0 16px 16px 0;
+}
+
+.card:nth-child(2n) {
+  margin: 0 0 16px 0;
+}

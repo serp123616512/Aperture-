@@ -1,0 +1,6 @@
+.article__img {
+  position: absolute;
+  object-fit: cover;
+  width: 1440px;
+  height: 600px;
+}

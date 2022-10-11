@@ -1,0 +1,18 @@
+.menu__button {
+  display: flex;
+  color: black;
+  background-color: white;
+  border-radius: 14px;
+  padding: 9px 20px 13px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  margin: 0 0 0 31px;
+  text-decoration: none;
+  transition: scale .5s ease;
+}
+
+.menu__button:hover {
+  scale: 1.1;
+}
