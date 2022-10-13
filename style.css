@@ -1,0 +1,154 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1168px;
+  width: 100%;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__columns:last-child {
+  padding: 0;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_description {
+  flex-basis: 50%;
+}
+
+.footer__column_content_links {
+  max-width: 220px;
+  width: 100%;
+}
+
+.footer__column_content_sub-info {
+  justify-content: space-between;
+  max-width: 300px;
+  width: 100%;
+}
+
+.footer__column_content_copiright {
+  justify-content: end;
+}
+
+.footer__column-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #C0C0C0;
+  margin: 0;
+}
+
+.footer__column-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer__column-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity .5s ease;
+  margin: 0 0 10px;
+}
+
+.footer__column-link:hover {
+  opacity: .6;
+}
+
+.line {
+  border: 1px solid white;
+  margin: 36px 0;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 460px;
+  width: 100%;
+  min-height: 52px;
+  padding: 11px;
+  background-color: white;
+  border-radius: 11px;
+  box-sizing: border-box;
+}
+
+.footer__input {
+  min-height: 30px;
+  border: 0;
+  padding: 0 11px;
+  box-sizing: border-box;
+  margin-right: 11px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: black;
+  width: 500px;
+}
+
+.footer__button {
+  width: 63px;
+  min-height: 30px;
+  background-color: black;
+  border-radius: 11px;
+  box-sizing: border-box;
+  box-shadow: inset 4px 4px 4px rgb(255 255 255 / 25%);
+}
+
+.footer__button:active {
+  scale: .9;
+}
+
+.footer__column-links-soc {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  line-height: 1;
+}
+
+.footer__column-link-soc {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-left: 20px;
+  transition: opacity .3s ease;
+}
+
+.footer__column-link-soc:hover {
+  opacity: .6;
+}

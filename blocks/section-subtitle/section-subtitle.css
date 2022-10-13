@@ -1,4 +1,6 @@
-.description__subtitle {
+.section-subtitle {
+  max-width: 570px;
+  width: 100%;
   font-weight: 400;
   font-size: 23px;
   line-height: 30px;

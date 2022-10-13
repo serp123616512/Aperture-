@@ -1,0 +1,10 @@
+.logo-links__link {
+  display: flex;
+  scale: 1;
+  transition: scale .5s ease;
+  margin: 0;
+}
+
+.logo-links__link:hover {
+  scale: 1.1;
+}

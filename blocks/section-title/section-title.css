@@ -1,4 +1,6 @@
-.description__title {
+.section-title {
+  max-width: 570px;
+  width: 100%;
   font-weight: 400;
   font-size: 40px;
   line-height: 42px;
