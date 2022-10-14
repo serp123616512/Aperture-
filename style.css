@@ -123,6 +123,7 @@
   min-height: 30px;
   background-color: black;
   border-radius: 11px;
+  cursor: pointer;
   box-sizing: border-box;
   box-shadow: inset 4px 4px 4px rgb(255 255 255 / 25%);
 }
